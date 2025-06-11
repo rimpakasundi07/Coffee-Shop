@@ -12,6 +12,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
+<!-- fontawesome link -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 <style>
     body{
        font-family: 'Playfair Display', serif;
@@ -22,7 +26,7 @@
 </head>
 <body>
     <!-- heading section -->
-    <div class="bg-[url('https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=2071&auto=format&fit=crop')] bg-cover bg-center h-screen flex justify-center items-center">
+    <div class="bg-[url('https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=2071&auto=format&fit=crop')] bg-cover bg-center h-screen flex justify-center items-center" class="full">
         <div>
     <h1 class="text-8xl text-white font-extrabold ">Your Daily Cup of Joy</h1>
     <p  class="text-xl text-white text-center pt-4 ">Come taste the warmth of hand-crafted coffee, brewed<br> to perfection just for you.</p>
@@ -72,7 +76,7 @@
         <!-- first card -->
         <div class="bg-white rounded-lg  shadow-sm ">
             <div>
-                <img src="https://img.freepik.com/free-photo/steaming-cup-coffee-saucer-with-coffee-beans-scattered-around_9975-124454.jpg?ga=GA1.1.1890969058.1720719749&semt=ais_items_boosted&w=740" class="h-60 rounded-t-lg" alt="">
+                <img src="https://img.freepik.com/free-photo/steaming-cup-coffee-saucer-with-coffee-beans-scattered-around_9975-124454.jpg?ga=GA1.1.1890969058.1720719749&semt=ais_items_boosted&w=740" class="h-60 rounded-t-lg w-full" alt="">
             </div>
 
             <div class="py-5 items-center justify-center text-center">
@@ -87,7 +91,7 @@
         <!-- second card  -->
         <div class="bg-white rounded-lg  shadow-sm ">
             <div>
-                <img src="https://img.freepik.com/premium-photo/glass-coffee-with-whipped-cream-chocolate-syrup_917856-25934.jpg?ga=GA1.1.1890969058.1720719749&semt=ais_items_boosted&w=740" class="h-60 rounded-t-lg" alt="">
+                <img src="https://img.freepik.com/premium-photo/glass-coffee-with-whipped-cream-chocolate-syrup_917856-25934.jpg?ga=GA1.1.1890969058.1720719749&semt=ais_items_boosted&w=740" class="h-60 rounded-t-lg w-full" alt="">
             </div>
 
             <div class="py-5 items-center justify-center text-center">
@@ -102,7 +106,7 @@
         <!-- third card -->
           <div class="bg-white rounded-lg  shadow-sm ">
             <div>
-                <img src="https://img.freepik.com/free-photo/close-up-aromatic-beverage-with-spices_23-2148349610.jpg?ga=GA1.1.1890969058.1720719749&semt=ais_items_boosted&w=740" class="h-60 rounded-t-lg" alt="">
+                <img src="https://img.freepik.com/free-photo/close-up-aromatic-beverage-with-spices_23-2148349610.jpg?ga=GA1.1.1890969058.1720719749&semt=ais_items_boosted&w=740" class="h-60 rounded-t-lg w-full" alt="">
             </div>
 
             <div class="py-5 items-center justify-center text-center">
@@ -117,7 +121,7 @@
           <!-- fouth card -->
           <div class="bg-white rounded-lg  shadow-sm ">
             <div>
-                <img src="https://img.freepik.com/free-photo/cup-coffee-white-saucer_114579-20024.jpg?ga=GA1.1.1890969058.1720719749&semt=ais_items_boosted&w=740" class="h-60 rounded-t-lg" alt="">
+                <img src="https://img.freepik.com/free-photo/cup-coffee-white-saucer_114579-20024.jpg?ga=GA1.1.1890969058.1720719749&semt=ais_items_boosted&w=740" class="h-60 rounded-t-lg w-full" alt="">
             </div>
 
             <div class="py-5 items-center justify-center text-center">
@@ -154,7 +158,7 @@
 
             <div class="flex">
                 <p class="text-lg font-bold text-amber-950">- Sarah Jenkins</p>
-                <img src="assets/star-reviews.png" alt="">
+                
             </div>
 
         </div>
@@ -166,7 +170,7 @@
 
             <div class="flex">
                 <p class="text-lg font-bold text-amber-950">- Michael Chen</p>
-                <img src="assets/star-reviews.png" alt="">
+               
             </div>
 
         </div>
@@ -179,7 +183,7 @@
 
             <div class="flex">
                 <p class="text-lg font-bold text-amber-950">-Emily Carter</p>
-                <img src="assets/star-reviews.png" alt="">
+              
             </div>
 
         </div>
@@ -241,16 +245,17 @@
      <!-- Visit Us -->
 
      <!-- main div -->
-      <div class="w-11/12 mx-auto">
-        <!-- left side -->
-         <div class="">
-            <h1 class="text-5xl  text-amber-950 font-bold">Visit Us</h1>
+      <div class="w-11/12 mx-auto py-14">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+             <!-- left side -->
+         <div class=" space-y-5">
+            <h1 class="text-4xl  text-amber-950 font-bold">Visit Us</h1>
 
             <!-- 1st -->
 
-            <div class="flex my-7"> 
+            <div class="flex items-center gap-2 "> 
                 <div class="">
-                     <img src="assets/icons8-location-50.png" alt="">
+                     <img src="assets/icons8-location-50.png" class="w-5 h-5" alt="">
 
                 </div>
                 <div>   
@@ -261,9 +266,9 @@
 
              <!-- 2nd -->
 
-            <div class="flex my-7"> 
+            <div class="flex items-center gap-2 "> 
                 <div class="">
-                     <img src="assets/icons8-clock-50.png" alt="">
+                     <img src="assets/icons8-clock-50.png"  class="w-5 h-5"c  alt="">
 
                 </div>
                 <div>   
@@ -274,9 +279,9 @@
 
              <!-- 3rd -->
 
-            <div class="flex my-7"> 
+            <div class="flex items-center gap-2"> 
                 <div class="">
-                     <img src="assets/icons8-call-30.png" alt="">
+                     <img src="assets/icons8-call-30.png"  class="w-5 h-5" alt="">
 
                 </div>
                 <div>   
@@ -285,14 +290,47 @@
              </div>
              </div>
 
+             <button class="border-2 bg-amber-950 text-white py-2 px-4 rounded-xl cursor-pointer hover:bg-yellow-700 font-bold ">Get Directions</button>
+
          </div>
 
          <!-- right side -->
-          <!-- <div>
+          <div>
+            <iframe class="shadow-lg rounded-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.719692482813!2d-118.25319528478494!3d34.05149398060645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c63425425e7d%3A0x4c2436979644f126!2sGrand%20Park!5e0!3m2!1sen!2sus!4v1620248408332!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
-          </div> -->
+          </div>
+
+        </div>
+       
 
       </div>
+
+      <!-- footer section -->
+       <div class="text-center bg-amber-950 space-y-6 py-10">
+        <h1 class="text-5xl  text-white font-bold " >Get 10% Off Your First Order</h1>
+        <p  class="text-xl  text-white font-semibold">Subscribe to our newsletter for special offers, new menu alerts, and coffee secrets.</p>
+
+        <div class="flex mx-auto w-11/12 items-center justify-center">
+              <form class="">
+            <input type="email" required class="  text-gray-700 bg-white p-3 rounded-lg w-[500px]" placeholder="Enter your email address">
+            <button class="border-2 bg-amber-800 text-white h-12 w-30 rounded-xl cursor-pointer hover:bg-white hover:text-black font-bold ">Subscribe</button>
+
+
+        </form>
+        </div>
+
+        <div class="flex mx-auto w-11/12 gap-5 justify-center">
+            
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook  text-white text-2xl"></i></a>
+         <a href="https://www.instagram.com/?hl=en">   <i class="fa-brands fa-instagram  text-white  text-2xl"></i></a>
+         <a href="https://x.com/"> <i class="fa-brands fa-twitter  text-white  text-2xl"></i></a>
+         <a href="https://www.youtube.com/">  <i class="fa-brands fa-youtube text-white  text-2xl"></i></a>
+        </div>
+
+        <hr class="w-[80%] mx-auto text-white">
+        <p class="text-white">© 2025 The Coffee House. All Rights Reserved. Designed bt Rimpa Kasundi.</p>
+      
+       </div>
 
 
 
